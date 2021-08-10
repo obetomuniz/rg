@@ -5,6 +5,8 @@
 - Apollo
 - TypeScript
 - CSS Modules
+- \*GitHub
+- \*Vercel
 
 ## Running Locally
 
@@ -33,4 +35,4 @@ Finally, open [http://localhost:3000](http://localhost:3000) with your browser t
 - GraphQL architecture is declared on `graphql` folder
 - API Routes are declared on `pages/api/graphql` folder due to Next.js architecture for Serverless Functions
 - Serverless GraphQL API is exposed on `/api/graphql` route
-- The project is deployed on Vercel on [URL TDB]()
+- The project was deployed on Vercel under [rg-qw26u3dp8-obetomuniz.vercel.app](https://rg-qw26u3dp8-obetomuniz.vercel.app/) URL for convenience
