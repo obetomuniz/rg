@@ -7,7 +7,7 @@ const PostList: React.FC = () => {
   const { loading, error, data } = usePosts()
 
   if (error) {
-    return <SystemMessage message={`Error: ${error}`} />
+    return <SystemMessage message={`Error: ${error.message}`} />
   }
 
   if (loading || !data?.posts) {

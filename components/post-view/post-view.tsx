@@ -13,7 +13,7 @@ const PostView: React.FC<PostViewProps> = ({ id }) => {
   const { loading, error, data } = usePost(id)
 
   if (error) {
-    return <SystemMessage message={`Error: ${error}`} />
+    return <SystemMessage message={`Error: ${error.message}`} />
   }
 
   if (loading || !data?.post) {
