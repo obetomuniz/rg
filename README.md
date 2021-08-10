@@ -16,11 +16,7 @@ First, after clone the project locally, install the dependencies using:
 npm install
 ```
 
-Secondly, rename `.env.example` to `.env.local`:
-
-```bash
-npm run dev
-```
+Secondly, rename `.env.example` to `.env.local`.
 
 Thirdly, run the development server locally using:
 
