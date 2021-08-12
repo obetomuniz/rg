@@ -29,4 +29,5 @@ npm run dev
 ## Dev Notes
 
 - GraphQL architecture is declared on `graphql` folder
+- Apollo Client is istanced on `components/layout` folder
 - The project was deployed on Vercel under [rg-jade.vercel.app](https://rg-jade.vercel.app/) URL for convenience
